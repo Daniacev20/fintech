@@ -1,0 +1,34 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.header {
+	background-color: #2082FC;
+	height: 250px;
+	margin: auto;
+	padding: 30px;
+	color: white;
+}
+.header hgroup {
+	text-align: center;
+	font-size: 24pt;
+}
+.header a {
+	color: #CDCCCC;
+	transition: color .3s ease-out;
+}
+.header a:hover {
+	color: white;
+}
+
+.panel {
+	padding: 30px;
+}
+.panel button {
+	background-color: white;
+	border: 1px groove;
+	padding: 10px;
+}
+.panel button:hover {
+	background-color: #E2E2E2;
+}

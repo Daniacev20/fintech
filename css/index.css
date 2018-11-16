@@ -32,3 +32,12 @@
 .panel button:hover {
 	background-color: #E2E2E2;
 }
+#agregar-parrafo {
+	display: none;
+}
+
+@media screen and (max-width: 768px) {
+	#agregar-parrafo {
+		display: inline;
+	}
+}
